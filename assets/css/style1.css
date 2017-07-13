@@ -1,0 +1,26 @@
+body {
+background-image: url("../images/lions.jpg");
+background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+span {
+	
+}
+
+a {
+	text-decoration: none;
+	color: white !important;
+	text-align: center;
+	font-family: 'Philosopher', sans-serif;
+    font-size: 180%;
+    padding: 5%;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+}
+
+span:hover {
+	color: gold;
+}
