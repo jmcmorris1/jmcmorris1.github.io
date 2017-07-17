@@ -90,3 +90,63 @@ span:hover {
 }
 
 
+@media screen and (max-width: 768px) {
+
+
+
+  body {
+
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+
+  }
+
+ /* #main-content,
+  #sidebar { width: 100%; }
+
+  #sidebar { margin-top: 40px; }*/
+
+}
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+
+ 
+
+  body {
+
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+
+  }
+
+ /* #main-content,
+  #sidebar { width: 100%; }
+
+  #sidebar { margin-top: 40px; }*/
+
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+
+  
+
+  body {
+
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+
+  }
+
+  /*#main-content,
+  #sidebar { width: 100%; }
+
+  #sidebar { margin-top: 40px; }*/
+
+}
