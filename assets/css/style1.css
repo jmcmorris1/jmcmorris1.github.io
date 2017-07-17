@@ -89,6 +89,6 @@ span:hover {
 
 @media(max-width:767px) {
     body {
-        height: 75px 0;
+        width: 75px 0;
     }
 }
