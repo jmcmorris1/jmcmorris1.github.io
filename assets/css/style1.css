@@ -2,6 +2,8 @@ body {
     background-image: url("../images/lions.jpg");
     background-size: cover;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     background-repeat: no-repeat;
     overflow-x: hidden;
     -webkit-animation: swing-in-top-fwd 2s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
@@ -81,5 +83,12 @@ span:hover {
         -webkit-transform-origin: top;
         transform-origin: top;
         opacity: 1;
+    }
+}
+
+
+@media(max-width:767px) {
+    body {
+        padding: 75px 0;
     }
 }
