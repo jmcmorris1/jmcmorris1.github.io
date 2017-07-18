@@ -26,7 +26,7 @@
     $(window).scroll(function(){
 
          $('.about-me').typeIt({
-            strings: ["I'm like a fly Malcolm X","Buy any jeans necessary!" ],
+            strings: ["I'm like a fly Malcolm X","buy any jeans necessary." ],
             speed: 150,
             breakLines: false,
             autoStart: false,
