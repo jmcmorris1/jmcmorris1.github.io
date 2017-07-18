@@ -26,7 +26,7 @@
     $(window).scroll(function(){
 
          $('.about-me').typeIt({
-            strings: ["I'm AWESOME!!!","Don't ask any questions", "just take my word for it!" ],
+            strings: ["I'm like a fly Malcolm X","Buy any jeans necessary!" ],
             speed: 150,
             breakLines: false,
             autoStart: false,
